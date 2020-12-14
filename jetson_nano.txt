@@ -1,0 +1,51 @@
+ssh andrey@10.0.1.15
+
+ WiFi
+ssh andrey@192.168.55.1 USB
+--------------------------------
+Commands:
+
+ifconfig
+
+
+--------------------------------
+
+Create virtual environment:
+
+python3 -m venv ~/python-envs/env (folder "python-ends" name "env")
+
+
+
+--------------------------------
+Activate virtual environment:
+
+source ~/python-envs/env/bin/activate
+
+
+
+--------------------------------
+NVIDIA L4T ML
+:
+https://ngc.nvidia.com/catalog/containers/nvidia:l4t-ml
+
+
+
+--------------------------------
+Jetson Nano Course run docker:
+./docker_dli_run.sh
+
+--------------------------------
+Pytorch install:
+https://forums.developer.nvidia.com/t/pytorch-for-jetson-version-1-7-0-now-available/72048
+
+--------------------------------
+Scikit-Image install:
+https://forums.developer.nvidia.com/t/install-scikit-image/122912/12
+
+--------------------------------
+Real-time OCR and Text Detection with Tensorflow, OpenCV and Tesseract:
+https://www.coursera.org/projects/ocr-text-detection-tensorflow-opencv-tesseract
+
+--------------------------------
+Tesseract python wrapper:
+https://github.com/zdenop/SimpleTesseractPythonWrapper
