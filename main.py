@@ -94,6 +94,7 @@ if __name__ == '__main__':
             GPIO.output(outputPin, 0)  # Led signal off
 
         if ret and x == 0:  # If button pressed
+            time.sleep(0.2)
             GPIO.output(outputPin, 1)  # Led signal on
             image = preprocess(frame)
             pix = pil_to_pix32(image, leptonica, ffi)
