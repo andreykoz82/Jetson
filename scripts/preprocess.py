@@ -4,7 +4,10 @@ import numpy as np
 
 
 def preprocess(image):
-    image = image[220:650, 410:1200]
+    # image = image[220:650, 410:1200] #  lab adjustments
+    image = cv2.transpose(image)
+    image = cv2.flip(image, flipCode=0)
+    image = image[800:1200, 250:900]
     image, alpha, beta = automatic_brightness_and_contrast(image)
     norm_img = np.zeros((image.shape[0], image.shape[1]))
     image = cv2.normalize(image, norm_img, 0, 255, cv2.NORM_MINMAX)

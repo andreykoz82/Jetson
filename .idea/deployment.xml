@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="On explicit save action" serverName="Jetson nano" autoUploadExternalChanges="true">
+  <component name="PublishConfigData" autoUpload="On explicit save action" serverName="andrey@192.168.55.1:22" autoUploadExternalChanges="true">
     <serverData>
-      <paths name="Jetson nano">
+      <paths name="andrey@192.168.55.1:22">
         <serverdata>
           <mappings>
-            <mapping deploy="/KLS" local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="Yandex VM">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/KLS" local="$PROJECT_DIR$" />
           </mappings>
         </serverdata>
       </paths>
